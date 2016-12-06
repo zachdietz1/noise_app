@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		327D99221DF6862600236428 /* Novocaine iOS Example in Resources */ = {isa = PBXBuildFile; fileRef = 327D99211DF6862600236428 /* Novocaine iOS Example */; };
+		327D99261DF687FA00236428 /* Novocaine in Resources */ = {isa = PBXBuildFile; fileRef = 327D99251DF687FA00236428 /* Novocaine */; };
 		32FBE0001DF49E3A00406E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDFFF1DF49E3A00406E39 /* main.m */; };
 		32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0021DF49E3A00406E39 /* AppDelegate.m */; };
 		32FBE0061DF49E3A00406E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0051DF49E3A00406E39 /* ViewController.m */; };
@@ -15,11 +17,10 @@
 		32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FBE00C1DF49E3A00406E39 /* LaunchScreen.storyboard */; };
 		32FBE0191DF49E3A00406E39 /* Noise_ManipulationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0181DF49E3A00406E39 /* Noise_ManipulationTests.m */; };
 		32FBE0241DF49E3A00406E39 /* Noise_ManipulationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0231DF49E3A00406E39 /* Noise_ManipulationUITests.m */; };
-		32FBE0331DF49E7800406E39 /* RainNoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0321DF49E7800406E39 /* RainNoiseViewController.m */; };
-		32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */; };
-		32FBE03C1DF4B85A00406E39 /* BineuralBeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */; };
-		32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */; };
-		8467719F1DF681B7002F4B67 /* Novocaine in Resources */ = {isa = PBXBuildFile; fileRef = 8467719E1DF681B7002F4B67 /* Novocaine */; };
+		32FBE0331DF49E7800406E39 /* NatureNoisesViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0321DF49E7800406E39 /* NatureNoisesViewController.mm */; };
+		32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.mm */; };
+		32FBE03C1DF4B85A00406E39 /* BinauralBeatViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.mm */; };
+		32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		327D99211DF6862600236428 /* Novocaine iOS Example */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Novocaine iOS Example"; sourceTree = "<group>"; };
+		327D99251DF687FA00236428 /* Novocaine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Novocaine; path = "Novocaine iOS Example/Novocaine"; sourceTree = "<group>"; };
+		327D99271DF6881E00236428 /* Novocaine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Novocaine.h; path = "../Novocaine iOS Example/Novocaine/Novocaine.h"; sourceTree = "<group>"; };
+		327D99281DF6885A00236428 /* RingBuffer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RingBuffer.h; sourceTree = "<group>"; };
+		327D99291DF6886700236428 /* AudioFileReader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
 		32FBDFFB1DF49E3A00406E39 /* Noise Manipulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noise Manipulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FBDFFF1DF49E3A00406E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32FBE0011DF49E3A00406E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,16 +62,14 @@
 		32FBE01F1DF49E3A00406E39 /* Noise ManipulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noise ManipulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FBE0231DF49E3A00406E39 /* Noise_ManipulationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Noise_ManipulationUITests.m; sourceTree = "<group>"; };
 		32FBE0251DF49E3A00406E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		32FBE0311DF49E7800406E39 /* RainNoiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainNoiseViewController.h; sourceTree = "<group>"; };
-		32FBE0321DF49E7800406E39 /* RainNoiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainNoiseViewController.m; sourceTree = "<group>"; };
+		32FBE0311DF49E7800406E39 /* NatureNoisesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NatureNoisesViewController.h; sourceTree = "<group>"; };
+		32FBE0321DF49E7800406E39 /* NatureNoisesViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NatureNoisesViewController.mm; sourceTree = "<group>"; };
 		32FBE0371DF4B83600406E39 /* ColoredNoiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredNoiseViewController.h; sourceTree = "<group>"; };
-		32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredNoiseViewController.m; sourceTree = "<group>"; };
-		32FBE03A1DF4B85A00406E39 /* BineuralBeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BineuralBeatViewController.h; sourceTree = "<group>"; };
-		32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BineuralBeatViewController.m; sourceTree = "<group>"; };
+		32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ColoredNoiseViewController.mm; sourceTree = "<group>"; };
+		32FBE03A1DF4B85A00406E39 /* BinauralBeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinauralBeatViewController.h; sourceTree = "<group>"; };
+		32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BinauralBeatViewController.mm; sourceTree = "<group>"; };
 		32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseCancellationViewController.h; sourceTree = "<group>"; };
-		32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseCancellationViewController.m; sourceTree = "<group>"; };
-		8467719D1DF67F9B002F4B67 /* Noise Manipulation.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Noise Manipulation.pch"; sourceTree = "<group>"; };
-		8467719E1DF681B7002F4B67 /* Novocaine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Novocaine; path = "Noise Manipulation/Novocaine"; sourceTree = "<group>"; };
+		32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NoiseCancellationViewController.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +100,12 @@
 		32FBDFF21DF49E3A00406E39 = {
 			isa = PBXGroup;
 			children = (
-				8467719E1DF681B7002F4B67 /* Novocaine */,
 				32FBDFFD1DF49E3A00406E39 /* Noise Manipulation */,
 				32FBE0171DF49E3A00406E39 /* Noise ManipulationTests */,
 				32FBE0221DF49E3A00406E39 /* Noise ManipulationUITests */,
 				32FBDFFC1DF49E3A00406E39 /* Products */,
+				327D99251DF687FA00236428 /* Novocaine */,
+				327D99211DF6862600236428 /* Novocaine iOS Example */,
 			);
 			sourceTree = "<group>";
 		};
@@ -134,7 +139,9 @@
 		32FBDFFE1DF49E3A00406E39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8467719D1DF67F9B002F4B67 /* Noise Manipulation.pch */,
+				327D99291DF6886700236428 /* AudioFileReader.h */,
+				327D99281DF6885A00236428 /* RingBuffer.h */,
+				327D99271DF6881E00236428 /* Novocaine.h */,
 				32FBDFFF1DF49E3A00406E39 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -162,13 +169,13 @@
 			isa = PBXGroup;
 			children = (
 				32FBE0371DF4B83600406E39 /* ColoredNoiseViewController.h */,
-				32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */,
-				32FBE0321DF49E7800406E39 /* RainNoiseViewController.m */,
-				32FBE0311DF49E7800406E39 /* RainNoiseViewController.h */,
-				32FBE03A1DF4B85A00406E39 /* BineuralBeatViewController.h */,
-				32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */,
+				32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.mm */,
+				32FBE0321DF49E7800406E39 /* NatureNoisesViewController.mm */,
+				32FBE0311DF49E7800406E39 /* NatureNoisesViewController.h */,
+				32FBE03A1DF4B85A00406E39 /* BinauralBeatViewController.h */,
+				32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.mm */,
 				32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */,
-				32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */,
+				32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.mm */,
 			);
 			name = "Second Screens";
 			sourceTree = "<group>";
@@ -281,8 +288,9 @@
 			files = (
 				32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */,
 				32FBE00B1DF49E3A00406E39 /* Assets.xcassets in Resources */,
+				327D99221DF6862600236428 /* Novocaine iOS Example in Resources */,
+				327D99261DF687FA00236428 /* Novocaine in Resources */,
 				32FBE0091DF49E3A00406E39 /* Main.storyboard in Resources */,
-				8467719F1DF681B7002F4B67 /* Novocaine in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,13 +315,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.m in Sources */,
+				32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.mm in Sources */,
 				32FBE0061DF49E3A00406E39 /* ViewController.m in Sources */,
-				32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */,
+				32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.mm in Sources */,
 				32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */,
 				32FBE0001DF49E3A00406E39 /* main.m in Sources */,
-				32FBE03C1DF4B85A00406E39 /* BineuralBeatViewController.m in Sources */,
-				32FBE0331DF49E7800406E39 /* RainNoiseViewController.m in Sources */,
+				32FBE03C1DF4B85A00406E39 /* BinauralBeatViewController.mm in Sources */,
+				32FBE0331DF49E7800406E39 /* NatureNoisesViewController.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

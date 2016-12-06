@@ -21,6 +21,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BjL-n2-OGq">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qT1-Pz-MPK">
                                 <rect key="frame" x="53" y="184" width="214" height="63"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -31,10 +35,10 @@
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upO-48-t0p">
-                                <rect key="frame" x="46" y="297" width="229" height="47"/>
+                                <rect key="frame" x="46" y="297" width="229" height="48"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Bineural Beats"/>
+                                <state key="normal" title="Binaural Beats"/>
                                 <connections>
                                     <segue destination="Lt3-A9-oIc" kind="show" id="Mjq-bt-uNz"/>
                                 </connections>
@@ -57,10 +61,6 @@
                                     <segue destination="XqY-f3-sCI" kind="show" id="BY5-ov-tiF"/>
                                 </connections>
                             </button>
-                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BjL-n2-OGq">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -101,10 +101,10 @@
             </objects>
             <point key="canvasLocation" x="1313" y="-333"/>
         </scene>
-        <!--Bineural Beat View Controller-->
+        <!--Binaural Beat View Controller-->
         <scene sceneID="5nt-ck-QGh">
             <objects>
-                <viewController id="Lt3-A9-oIc" customClass="BineuralBeatViewController" sceneMemberID="viewController">
+                <viewController id="Lt3-A9-oIc" customClass="BinauralBeatViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="sr6-Ju-FpF"/>
                         <viewControllerLayoutGuide type="bottom" id="0ip-vD-6fZ"/>
@@ -157,10 +157,10 @@
             </objects>
             <point key="canvasLocation" x="1313" y="1203"/>
         </scene>
-        <!--Rain Noise View Controller-->
+        <!--Nature Noises View Controller-->
         <scene sceneID="EjT-Yz-ncN">
             <objects>
-                <viewController id="XqY-f3-sCI" customClass="RainNoiseViewController" sceneMemberID="viewController">
+                <viewController id="XqY-f3-sCI" customClass="NatureNoisesViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="EZS-dV-JAc"/>
                         <viewControllerLayoutGuide type="bottom" id="dZc-SI-2F9"/>
@@ -188,6 +188,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="28p-SL-7P5"/>
+        <segue reference="PAH-Ok-GHc"/>
     </inferredMetricsTieBreakers>
 </document>

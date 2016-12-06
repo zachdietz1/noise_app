@@ -7,6 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "Novocaine/Novocaine.h"
+#import "Novocaine/RingBuffer.h"
+#import "Novocaine/AudioFileReader.h"
+#import "Novocaine/AudioFileWriter.h"
 
 @interface ViewController : UIViewController
 

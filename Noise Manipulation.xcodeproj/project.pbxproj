@@ -19,6 +19,7 @@
 		32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */; };
 		32FBE03C1DF4B85A00406E39 /* BineuralBeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */; };
 		32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */; };
+		8467719F1DF681B7002F4B67 /* Novocaine in Resources */ = {isa = PBXBuildFile; fileRef = 8467719E1DF681B7002F4B67 /* Novocaine */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BineuralBeatViewController.m; sourceTree = "<group>"; };
 		32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseCancellationViewController.h; sourceTree = "<group>"; };
 		32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseCancellationViewController.m; sourceTree = "<group>"; };
+		8467719D1DF67F9B002F4B67 /* Noise Manipulation.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Noise Manipulation.pch"; sourceTree = "<group>"; };
+		8467719E1DF681B7002F4B67 /* Novocaine */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Novocaine; path = "Noise Manipulation/Novocaine"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,7 @@
 		32FBDFF21DF49E3A00406E39 = {
 			isa = PBXGroup;
 			children = (
+				8467719E1DF681B7002F4B67 /* Novocaine */,
 				32FBDFFD1DF49E3A00406E39 /* Noise Manipulation */,
 				32FBE0171DF49E3A00406E39 /* Noise ManipulationTests */,
 				32FBE0221DF49E3A00406E39 /* Noise ManipulationUITests */,
@@ -130,6 +134,7 @@
 		32FBDFFE1DF49E3A00406E39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8467719D1DF67F9B002F4B67 /* Noise Manipulation.pch */,
 				32FBDFFF1DF49E3A00406E39 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -277,6 +282,7 @@
 				32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */,
 				32FBE00B1DF49E3A00406E39 /* Assets.xcassets in Resources */,
 				32FBE0091DF49E3A00406E39 /* Main.storyboard in Resources */,
+				8467719F1DF681B7002F4B67 /* Novocaine in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -537,6 +543,7 @@
 				32FBE02A1DF49E3A00406E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FBE02B1DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise ManipulationTests" */ = {
 			isa = XCConfigurationList;
@@ -545,6 +552,7 @@
 				32FBE02D1DF49E3A00406E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32FBE02E1DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise ManipulationUITests" */ = {
 			isa = XCConfigurationList;
@@ -553,6 +561,7 @@
 				32FBE0301DF49E3A00406E39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32FBE0001DF49E3A00406E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDFFF1DF49E3A00406E39 /* main.m */; };
+		32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0021DF49E3A00406E39 /* AppDelegate.m */; };
+		32FBE0061DF49E3A00406E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0051DF49E3A00406E39 /* ViewController.m */; };
+		32FBE0091DF49E3A00406E39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FBE0071DF49E3A00406E39 /* Main.storyboard */; };
+		32FBE00B1DF49E3A00406E39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32FBE00A1DF49E3A00406E39 /* Assets.xcassets */; };
+		32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32FBE00C1DF49E3A00406E39 /* LaunchScreen.storyboard */; };
+		32FBE0191DF49E3A00406E39 /* Noise_ManipulationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0181DF49E3A00406E39 /* Noise_ManipulationTests.m */; };
+		32FBE0241DF49E3A00406E39 /* Noise_ManipulationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0231DF49E3A00406E39 /* Noise_ManipulationUITests.m */; };
+		32FBE0331DF49E7800406E39 /* RainNoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0321DF49E7800406E39 /* RainNoiseViewController.m */; };
+		32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */; };
+		32FBE03C1DF4B85A00406E39 /* BineuralBeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */; };
+		32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32FBE0151DF49E3A00406E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FBDFF31DF49E3A00406E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FBDFFA1DF49E3A00406E39;
+			remoteInfo = "Noise Manipulation";
+		};
+		32FBE0201DF49E3A00406E39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32FBDFF31DF49E3A00406E39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32FBDFFA1DF49E3A00406E39;
+			remoteInfo = "Noise Manipulation";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32FBDFFB1DF49E3A00406E39 /* Noise Manipulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noise Manipulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FBDFFF1DF49E3A00406E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32FBE0011DF49E3A00406E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		32FBE0021DF49E3A00406E39 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		32FBE0041DF49E3A00406E39 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		32FBE0051DF49E3A00406E39 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		32FBE0081DF49E3A00406E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32FBE00A1DF49E3A00406E39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32FBE00D1DF49E3A00406E39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32FBE00F1DF49E3A00406E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FBE0141DF49E3A00406E39 /* Noise ManipulationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noise ManipulationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FBE0181DF49E3A00406E39 /* Noise_ManipulationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Noise_ManipulationTests.m; sourceTree = "<group>"; };
+		32FBE01A1DF49E3A00406E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FBE01F1DF49E3A00406E39 /* Noise ManipulationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Noise ManipulationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		32FBE0231DF49E3A00406E39 /* Noise_ManipulationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Noise_ManipulationUITests.m; sourceTree = "<group>"; };
+		32FBE0251DF49E3A00406E39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32FBE0311DF49E7800406E39 /* RainNoiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RainNoiseViewController.h; sourceTree = "<group>"; };
+		32FBE0321DF49E7800406E39 /* RainNoiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RainNoiseViewController.m; sourceTree = "<group>"; };
+		32FBE0371DF4B83600406E39 /* ColoredNoiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredNoiseViewController.h; sourceTree = "<group>"; };
+		32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredNoiseViewController.m; sourceTree = "<group>"; };
+		32FBE03A1DF4B85A00406E39 /* BineuralBeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BineuralBeatViewController.h; sourceTree = "<group>"; };
+		32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BineuralBeatViewController.m; sourceTree = "<group>"; };
+		32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseCancellationViewController.h; sourceTree = "<group>"; };
+		32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseCancellationViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32FBDFF81DF49E3A00406E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBE0111DF49E3A00406E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBE01C1DF49E3A00406E39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32FBDFF21DF49E3A00406E39 = {
+			isa = PBXGroup;
+			children = (
+				32FBDFFD1DF49E3A00406E39 /* Noise Manipulation */,
+				32FBE0171DF49E3A00406E39 /* Noise ManipulationTests */,
+				32FBE0221DF49E3A00406E39 /* Noise ManipulationUITests */,
+				32FBDFFC1DF49E3A00406E39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32FBDFFC1DF49E3A00406E39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32FBDFFB1DF49E3A00406E39 /* Noise Manipulation.app */,
+				32FBE0141DF49E3A00406E39 /* Noise ManipulationTests.xctest */,
+				32FBE01F1DF49E3A00406E39 /* Noise ManipulationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32FBDFFD1DF49E3A00406E39 /* Noise Manipulation */ = {
+			isa = PBXGroup;
+			children = (
+				32FBE0401DF4B97E00406E39 /* Second Screens */,
+				32FBE0011DF49E3A00406E39 /* AppDelegate.h */,
+				32FBE0021DF49E3A00406E39 /* AppDelegate.m */,
+				32FBE0041DF49E3A00406E39 /* ViewController.h */,
+				32FBE0051DF49E3A00406E39 /* ViewController.m */,
+				32FBE0071DF49E3A00406E39 /* Main.storyboard */,
+				32FBE00A1DF49E3A00406E39 /* Assets.xcassets */,
+				32FBE00C1DF49E3A00406E39 /* LaunchScreen.storyboard */,
+				32FBE00F1DF49E3A00406E39 /* Info.plist */,
+				32FBDFFE1DF49E3A00406E39 /* Supporting Files */,
+			);
+			path = "Noise Manipulation";
+			sourceTree = "<group>";
+		};
+		32FBDFFE1DF49E3A00406E39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				32FBDFFF1DF49E3A00406E39 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		32FBE0171DF49E3A00406E39 /* Noise ManipulationTests */ = {
+			isa = PBXGroup;
+			children = (
+				32FBE0181DF49E3A00406E39 /* Noise_ManipulationTests.m */,
+				32FBE01A1DF49E3A00406E39 /* Info.plist */,
+			);
+			path = "Noise ManipulationTests";
+			sourceTree = "<group>";
+		};
+		32FBE0221DF49E3A00406E39 /* Noise ManipulationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32FBE0231DF49E3A00406E39 /* Noise_ManipulationUITests.m */,
+				32FBE0251DF49E3A00406E39 /* Info.plist */,
+			);
+			path = "Noise ManipulationUITests";
+			sourceTree = "<group>";
+		};
+		32FBE0401DF4B97E00406E39 /* Second Screens */ = {
+			isa = PBXGroup;
+			children = (
+				32FBE0371DF4B83600406E39 /* ColoredNoiseViewController.h */,
+				32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */,
+				32FBE0321DF49E7800406E39 /* RainNoiseViewController.m */,
+				32FBE0311DF49E7800406E39 /* RainNoiseViewController.h */,
+				32FBE03A1DF4B85A00406E39 /* BineuralBeatViewController.h */,
+				32FBE03B1DF4B85A00406E39 /* BineuralBeatViewController.m */,
+				32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */,
+				32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */,
+			);
+			name = "Second Screens";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32FBDFFA1DF49E3A00406E39 /* Noise Manipulation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FBE0281DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise Manipulation" */;
+			buildPhases = (
+				32FBDFF71DF49E3A00406E39 /* Sources */,
+				32FBDFF81DF49E3A00406E39 /* Frameworks */,
+				32FBDFF91DF49E3A00406E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Noise Manipulation";
+			productName = "Noise Manipulation";
+			productReference = 32FBDFFB1DF49E3A00406E39 /* Noise Manipulation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32FBE0131DF49E3A00406E39 /* Noise ManipulationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FBE02B1DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise ManipulationTests" */;
+			buildPhases = (
+				32FBE0101DF49E3A00406E39 /* Sources */,
+				32FBE0111DF49E3A00406E39 /* Frameworks */,
+				32FBE0121DF49E3A00406E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FBE0161DF49E3A00406E39 /* PBXTargetDependency */,
+			);
+			name = "Noise ManipulationTests";
+			productName = "Noise ManipulationTests";
+			productReference = 32FBE0141DF49E3A00406E39 /* Noise ManipulationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32FBE01E1DF49E3A00406E39 /* Noise ManipulationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32FBE02E1DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise ManipulationUITests" */;
+			buildPhases = (
+				32FBE01B1DF49E3A00406E39 /* Sources */,
+				32FBE01C1DF49E3A00406E39 /* Frameworks */,
+				32FBE01D1DF49E3A00406E39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32FBE0211DF49E3A00406E39 /* PBXTargetDependency */,
+			);
+			name = "Noise ManipulationUITests";
+			productName = "Noise ManipulationUITests";
+			productReference = 32FBE01F1DF49E3A00406E39 /* Noise ManipulationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32FBDFF31DF49E3A00406E39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Dietz and King";
+				TargetAttributes = {
+					32FBDFFA1DF49E3A00406E39 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					32FBE0131DF49E3A00406E39 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32FBDFFA1DF49E3A00406E39;
+					};
+					32FBE01E1DF49E3A00406E39 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32FBDFFA1DF49E3A00406E39;
+					};
+				};
+			};
+			buildConfigurationList = 32FBDFF61DF49E3A00406E39 /* Build configuration list for PBXProject "Noise Manipulation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32FBDFF21DF49E3A00406E39;
+			productRefGroup = 32FBDFFC1DF49E3A00406E39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32FBDFFA1DF49E3A00406E39 /* Noise Manipulation */,
+				32FBE0131DF49E3A00406E39 /* Noise ManipulationTests */,
+				32FBE01E1DF49E3A00406E39 /* Noise ManipulationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32FBDFF91DF49E3A00406E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */,
+				32FBE00B1DF49E3A00406E39 /* Assets.xcassets in Resources */,
+				32FBE0091DF49E3A00406E39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBE0121DF49E3A00406E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBE01D1DF49E3A00406E39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32FBDFF71DF49E3A00406E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.m in Sources */,
+				32FBE0061DF49E3A00406E39 /* ViewController.m in Sources */,
+				32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */,
+				32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */,
+				32FBE0001DF49E3A00406E39 /* main.m in Sources */,
+				32FBE03C1DF4B85A00406E39 /* BineuralBeatViewController.m in Sources */,
+				32FBE0331DF49E7800406E39 /* RainNoiseViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBE0101DF49E3A00406E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBE0191DF49E3A00406E39 /* Noise_ManipulationTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32FBE01B1DF49E3A00406E39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FBE0241DF49E3A00406E39 /* Noise_ManipulationUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32FBE0161DF49E3A00406E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FBDFFA1DF49E3A00406E39 /* Noise Manipulation */;
+			targetProxy = 32FBE0151DF49E3A00406E39 /* PBXContainerItemProxy */;
+		};
+		32FBE0211DF49E3A00406E39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32FBDFFA1DF49E3A00406E39 /* Noise Manipulation */;
+			targetProxy = 32FBE0201DF49E3A00406E39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32FBE0071DF49E3A00406E39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FBE0081DF49E3A00406E39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32FBE00C1DF49E3A00406E39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32FBE00D1DF49E3A00406E39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32FBE0261DF49E3A00406E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		32FBE0271DF49E3A00406E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32FBE0291DF49E3A00406E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noise Manipulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DK.Noise-Manipulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		32FBE02A1DF49E3A00406E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Noise Manipulation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DK.Noise-Manipulation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		32FBE02C1DF49E3A00406E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Noise ManipulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DK.Noise-ManipulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noise Manipulation.app/Noise Manipulation";
+			};
+			name = Debug;
+		};
+		32FBE02D1DF49E3A00406E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Noise ManipulationTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DK.Noise-ManipulationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Noise Manipulation.app/Noise Manipulation";
+			};
+			name = Release;
+		};
+		32FBE02F1DF49E3A00406E39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Noise ManipulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DK.Noise-ManipulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Noise Manipulation";
+			};
+			name = Debug;
+		};
+		32FBE0301DF49E3A00406E39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Noise ManipulationUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "DK.Noise-ManipulationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Noise Manipulation";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32FBDFF61DF49E3A00406E39 /* Build configuration list for PBXProject "Noise Manipulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBE0261DF49E3A00406E39 /* Debug */,
+				32FBE0271DF49E3A00406E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32FBE0281DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise Manipulation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBE0291DF49E3A00406E39 /* Debug */,
+				32FBE02A1DF49E3A00406E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32FBE02B1DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise ManipulationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBE02C1DF49E3A00406E39 /* Debug */,
+				32FBE02D1DF49E3A00406E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32FBE02E1DF49E3A00406E39 /* Build configuration list for PBXNativeTarget "Noise ManipulationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32FBE02F1DF49E3A00406E39 /* Debug */,
+				32FBE0301DF49E3A00406E39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 32FBDFF31DF49E3A00406E39 /* Project object */;
+}

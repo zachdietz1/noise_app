@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		320C8E171DF7D6BC00FB9B19 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C8E161DF7D6BC00FB9B19 /* AVKit.framework */; };
+		320C8E191DF7D73A00FB9B19 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */; };
+		327591A11DF7E82A00DC9190 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327591A01DF7E82A00DC9190 /* thunder.mp3 */; };
+		327591A31DF7ED3C00DC9190 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327591A21DF7ED3C00DC9190 /* rain.mp3 */; };
 		327D992C1DF6A15F00236428 /* AcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D992B1DF6A15F00236428 /* AcknowledgementsViewController.m */; };
 		32FBE0001DF49E3A00406E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDFFF1DF49E3A00406E39 /* main.m */; };
 		32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0021DF49E3A00406E39 /* AppDelegate.m */; };
@@ -40,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		320C8E161DF7D6BC00FB9B19 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
+		320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		327591A01DF7E82A00DC9190 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thunder.mp3; path = "../../cs50 project files/thunder.mp3"; sourceTree = "<group>"; };
+		327591A21DF7ED3C00DC9190 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rain.mp3; path = "../../cs50 project files/rain.mp3"; sourceTree = "<group>"; };
 		327D992A1DF6A15F00236428 /* AcknowledgementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcknowledgementsViewController.h; sourceTree = "<group>"; };
 		327D992B1DF6A15F00236428 /* AcknowledgementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcknowledgementsViewController.m; sourceTree = "<group>"; };
 		32FBDFFB1DF49E3A00406E39 /* Noise Manipulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noise Manipulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				320C8E191DF7D73A00FB9B19 /* AVFoundation.framework in Frameworks */,
+				320C8E171DF7D6BC00FB9B19 /* AVKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,6 +103,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		320C8E151DF7D6BC00FB9B19 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */,
+				320C8E161DF7D6BC00FB9B19 /* AVKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		32FBDFF21DF49E3A00406E39 = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +119,7 @@
 				32FBE0171DF49E3A00406E39 /* Noise ManipulationTests */,
 				32FBE0221DF49E3A00406E39 /* Noise ManipulationUITests */,
 				32FBDFFC1DF49E3A00406E39 /* Products */,
+				320C8E151DF7D6BC00FB9B19 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -133,6 +153,8 @@
 		32FBDFFE1DF49E3A00406E39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				327591A21DF7ED3C00DC9190 /* rain.mp3 */,
+				327591A01DF7E82A00DC9190 /* thunder.mp3 */,
 				32FBDFFF1DF49E3A00406E39 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -280,8 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */,
+				327591A31DF7ED3C00DC9190 /* rain.mp3 in Resources */,
 				32FBE00B1DF49E3A00406E39 /* Assets.xcassets in Resources */,
 				32FBE0091DF49E3A00406E39 /* Main.storyboard in Resources */,
+				327591A11DF7E82A00DC9190 /* thunder.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

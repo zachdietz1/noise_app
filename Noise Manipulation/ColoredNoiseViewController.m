@@ -7,9 +7,12 @@
 //
 
 #import "ColoredNoiseViewController.h"
+#import <AVFoundation/AVFoundation.h>
 
 @interface ColoredNoiseViewController ()
-
+{
+    AVAudioPlayer *thunder;
+}
 @end
 
 @implementation ColoredNoiseViewController
@@ -18,6 +21,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     [self.coloredNoisesView setImage:[UIImage imageNamed:@"colored.jpg"]];
+    
+    // codewithchris' code:
+    NSString *path = [NSString stringWithFormat:@"%@/thunder.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    thunder = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+}
+- (IBAction)playWhite:(id)sender {
+    [thunder play];
 }
 
 /*

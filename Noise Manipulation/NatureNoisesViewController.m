@@ -12,6 +12,9 @@
 @interface NatureNoisesViewController ()
 {
     AVAudioPlayer *rain;
+    AVAudioPlayer *wind;
+    AVAudioPlayer *space;
+    AVAudioPlayer *ocean;
     AVAudioPlayer *thunder;
 }
 @end
@@ -33,6 +36,36 @@
     rain = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
     
     [rain play];
+}
+- (IBAction)windNoise:(id)sender {
+    // codewithchris' code:
+    NSString *path = [NSString stringWithFormat:@"%@/wind.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    wind = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    
+    [wind play];
+}
+- (IBAction)spaceNoise:(id)sender {
+    // codewithchris' code:
+    NSString *path = [NSString stringWithFormat:@"%@/space.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    space = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    
+    [space play];
+}
+- (IBAction)oceanNoise:(id)sender {
+    // codewithchris' code:
+    NSString *path = [NSString stringWithFormat:@"%@/ocean.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    ocean = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    
+    [ocean play];
 }
 
 - (IBAction)thunderNoise:(id)sender {

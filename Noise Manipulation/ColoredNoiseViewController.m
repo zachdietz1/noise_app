@@ -11,7 +11,10 @@
 
 @interface ColoredNoiseViewController ()
 {
-    AVAudioPlayer *thunder;
+    AVAudioPlayer *white;
+    AVAudioPlayer *pink;
+    AVAudioPlayer *red;
+    AVAudioPlayer *grey;
 }
 @end
 
@@ -22,25 +25,46 @@
     // Do any additional setup after loading the view, typically from a nib.
     [self.coloredNoisesView setImage:[UIImage imageNamed:@"colored.jpg"]];
     
+}
+- (IBAction)whiteNoise:(id)sender {
     // codewithchris' code:
-    NSString *path = [NSString stringWithFormat:@"%@/thunder.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSString *path = [NSString stringWithFormat:@"%@/white.mp3", [[NSBundle mainBundle] resourcePath]];
     NSURL *soundUrl = [NSURL fileURLWithPath:path];
     
     // Create audio player object and initialize with URL to sound
-    thunder = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    white = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    
+    [white play];
 }
-- (IBAction)playWhite:(id)sender {
-    [thunder play];
+- (IBAction)pinkNoise:(id)sender {
+    // codewithchris' code:
+    NSString *path = [NSString stringWithFormat:@"%@/pink.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    pink = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    
+    [pink play];
 }
-
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+- (IBAction)redNoise:(id)sender {
+    // codewithchris' code:
+    NSString *path = [NSString stringWithFormat:@"%@/red.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    red = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    
+    [red play];
 }
-*/
+- (IBAction)greyNoise:(id)sender {
+    // codewithchris' code:
+    NSString *path = [NSString stringWithFormat:@"%@/grey.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    
+    // Create audio player object and initialize with URL to sound
+    grey = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    
+    [grey play];
+}
 
 @end

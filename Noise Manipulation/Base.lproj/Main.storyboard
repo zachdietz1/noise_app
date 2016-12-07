@@ -108,30 +108,6 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="n9e-ou-aVb"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lx7-Pn-rgG">
-                                <rect key="frame" x="127" y="323" width="66" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="Red">
-                                    <color key="titleColor" red="1" green="0.038757471653198206" blue="0.022833182487484449" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCj-hX-r7q">
-                                <rect key="frame" x="127" y="217" width="66" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="Pink">
-                                    <color key="titleColor" red="1" green="0.59094696805602787" blue="0.58866070722489849" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vf5-dO-Mim">
-                                <rect key="frame" x="122" y="439" width="77" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
-                                <state key="normal" title="Grey">
-                                    <color key="titleColor" white="0.74101480533336772" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m13-ld-Wwp">
                                 <rect key="frame" x="113" y="118" width="94" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -140,7 +116,40 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <action selector="playWhite:" destination="aRG-Oz-PNp" eventType="touchUpInside" id="eAa-7p-pvG"/>
+                                    <action selector="whiteNoise:" destination="aRG-Oz-PNp" eventType="touchUpInside" id="zso-ie-Xuk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QCj-hX-r7q">
+                                <rect key="frame" x="127" y="217" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Pink">
+                                    <color key="titleColor" red="1" green="0.59094696805602787" blue="0.58866070722489849" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="pinkNoise:" destination="aRG-Oz-PNp" eventType="touchUpInside" id="0lD-ZU-8bS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lx7-Pn-rgG">
+                                <rect key="frame" x="127" y="323" width="66" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Red">
+                                    <color key="titleColor" red="1" green="0.038757471653198206" blue="0.022833182487484449" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="redNoise:" destination="aRG-Oz-PNp" eventType="touchUpInside" id="MI9-pT-vxs"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vf5-dO-Mim">
+                                <rect key="frame" x="122" y="439" width="77" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="34"/>
+                                <state key="normal" title="Grey">
+                                    <color key="titleColor" white="0.74101480533336772" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="greyNoise:" destination="aRG-Oz-PNp" eventType="touchUpInside" id="SUT-U4-gqz"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -272,6 +281,9 @@
                                 <state key="normal" title="Wind">
                                     <color key="titleColor" red="1" green="0.45718923698390235" blue="0.041811960295762174" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="windNoise:" destination="XqY-f3-sCI" eventType="touchUpInside" id="2Zw-CB-gMB"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Uya-tg-ePh">
                                 <rect key="frame" x="103" y="247" width="116" height="41"/>
@@ -281,6 +293,9 @@
                                 <state key="normal" title="Space">
                                     <color key="titleColor" red="1" green="0.45718923698390235" blue="0.041811960295762174" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="spaceNoise:" destination="XqY-f3-sCI" eventType="touchUpInside" id="JnG-Os-BEG"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZH8-gg-Crz">
                                 <rect key="frame" x="95" y="337" width="131" height="53"/>
@@ -289,6 +304,9 @@
                                 <state key="normal" title="Ocean">
                                     <color key="titleColor" red="1" green="0.45718923698390235" blue="0.041811960295762174" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="oceanNoise:" destination="XqY-f3-sCI" eventType="touchUpInside" id="txi-G0-q9F"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4ML-Bt-ygQ">
                                 <rect key="frame" x="92" y="433" width="136" height="50"/>
@@ -328,6 +346,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="PAH-Ok-GHc"/>
+        <segue reference="n9e-ou-aVb"/>
     </inferredMetricsTieBreakers>
 </document>

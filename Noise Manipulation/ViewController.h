@@ -12,6 +12,5 @@
 
 @property (weak, nonatomic) IBOutlet UIImageView *photoHomeView;
 
-
 @end
 

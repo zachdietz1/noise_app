@@ -1,18 +1,18 @@
 //
-//  NatureNoisesViewController.m
+//  AcknowledgementsViewController.m
 //  Noise Manipulation
 //
-//  Created by Zachary Dietz on 12/4/16.
+//  Created by Zachary Dietz on 12/6/16.
 //  Copyright © 2016 Dietz and King. All rights reserved.
 //
 
-#import "NatureNoisesViewController.h"
+#import "AcknowledgementsViewController.h"
 
-@interface NatureNoisesViewController ()
+@interface AcknowledgementsViewController ()
 
 @end
 
-@implementation NatureNoisesViewController
+@implementation AcknowledgementsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

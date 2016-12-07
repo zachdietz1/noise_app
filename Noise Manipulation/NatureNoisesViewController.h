@@ -7,13 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "Novocaine.h"
-#import "RingBuffer.h"
-#import "AudioFileReader.h"
 
 @interface NatureNoisesViewController : UIViewController
 
-@property (nonatomic, strong) Novocaine *audioManager;
-@property (nonatomic, strong) AudioFileReader *fileReader;
+@property (weak, nonatomic) IBOutlet UIImageView *natureView;
 
 @end

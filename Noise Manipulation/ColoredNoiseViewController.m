@@ -26,45 +26,119 @@
     [self.coloredNoisesView setImage:[UIImage imageNamed:@"colored.jpg"]];
     
 }
-- (IBAction)whiteNoise:(id)sender {
+
+- (void)handleSoundStop:(AVAudioPlayer *)player {
+    
+    if(player != nil){
+        if(player.isPlaying) {
+            [player stop];
+        }
+        // delete player?
+    }
+}
+
+- (IBAction)backButton:(UIButton *)sender {
+    
+    [self handleSoundStop:white];
+    [self handleSoundStop:pink];
+    [self handleSoundStop:red];
+    [self handleSoundStop:grey];
+    
+}
+
+
+
+- (AVAudioPlayer *)makeNoisePlayerWithFileName:(NSString *) filename {
+
     // codewithchris' code:
-    NSString *path = [NSString stringWithFormat:@"%@/white.mp3", [[NSBundle mainBundle] resourcePath]];
+    NSString *path = [NSString stringWithFormat:@"%@/%@", [[NSBundle mainBundle] resourcePath], filename];
     NSURL *soundUrl = [NSURL fileURLWithPath:path];
     
     // Create audio player object and initialize with URL to sound
-    white = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    AVAudioPlayer *player = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    player.numberOfLoops = -1;
     
-    [white play];
+    return player;
+    
+    
+}
+
+
+- (void)noiseButtonPress:(id)sender player:(AVAudioPlayer *)player name:(NSString *)name {
+    
+    // help from http://stackoverflow.com/questions/5264546/change-button-text-from-xcode
+    if(!player.isPlaying) {
+        [player play];
+        [sender setTitle:@"Stop" forState:UIControlStateNormal];
+    }
+    else {
+        [player stop];
+        [sender setTitle:name forState:UIControlStateNormal];
+    }
+    
+}
+
+
+
+- (IBAction)whiteNoise:(id)sender {
+    
+    
+    // initialize the sound player
+    if(white == nil) {
+        white = [self makeNoisePlayerWithFileName:@"white.mp3"];
+    }
+    
+    [self noiseButtonPress:sender player:white name:@"White"];
+    
+    
+    
 }
 - (IBAction)pinkNoise:(id)sender {
-    // codewithchris' code:
-    NSString *path = [NSString stringWithFormat:@"%@/pink.mp3", [[NSBundle mainBundle] resourcePath]];
-    NSURL *soundUrl = [NSURL fileURLWithPath:path];
     
-    // Create audio player object and initialize with URL to sound
-    pink = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+    // initialize the sound player
+    if(pink == nil) {
+        pink = [self makeNoisePlayerWithFileName:@"pink.mp3"];
+    }
     
-    [pink play];
+    [self noiseButtonPress:sender player:pink name:@"Pink"];
+    
 }
 - (IBAction)redNoise:(id)sender {
-    // codewithchris' code:
-    NSString *path = [NSString stringWithFormat:@"%@/red.mp3", [[NSBundle mainBundle] resourcePath]];
-    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    // initialize the sound player
+    if(red == nil) {
+        red = [self makeNoisePlayerWithFileName:@"red.mp3"];
+    }
     
-    // Create audio player object and initialize with URL to sound
-    red = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
-    
-    [red play];
+    [self noiseButtonPress:sender player:red name:@"Red"];
 }
 - (IBAction)greyNoise:(id)sender {
-    // codewithchris' code:
-    NSString *path = [NSString stringWithFormat:@"%@/grey.mp3", [[NSBundle mainBundle] resourcePath]];
-    NSURL *soundUrl = [NSURL fileURLWithPath:path];
+    // initialize the sound player
+    if(grey == nil) {
+        grey = [self makeNoisePlayerWithFileName:@"grey.mp3"];
+    }
     
-    // Create audio player object and initialize with URL to sound
-    grey = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
-    
-    [grey play];
+    [self noiseButtonPress:sender player:grey name:@"Grey"];
 }
 
 @end
+
+
+/*
+ 
+ - (IBAction)pinkNoise:(id)sender {
+ // codewithchris' code:
+ NSString *path = [NSString stringWithFormat:@"%@/pink.mp3", [[NSBundle mainBundle] resourcePath]];
+ NSURL *soundUrl = [NSURL fileURLWithPath:path];
+ 
+ // Create audio player object and initialize with URL to sound
+ pink = [[AVAudioPlayer alloc] initWithContentsOfURL:soundUrl error:nil];
+ 
+ [pink play];
+ }
+
+ 
+ */
+
+
+
+

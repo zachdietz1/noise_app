@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		320C8E171DF7D6BC00FB9B19 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C8E161DF7D6BC00FB9B19 /* AVKit.framework */; };
 		320C8E191DF7D73A00FB9B19 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */; };
-		327591A11DF7E82A00DC9190 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327591A01DF7E82A00DC9190 /* thunder.mp3 */; };
-		327591A31DF7ED3C00DC9190 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327591A21DF7ED3C00DC9190 /* rain.mp3 */; };
 		327D992C1DF6A15F00236428 /* AcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D992B1DF6A15F00236428 /* AcknowledgementsViewController.m */; };
 		32FBE0001DF49E3A00406E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDFFF1DF49E3A00406E39 /* main.m */; };
 		32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0021DF49E3A00406E39 /* AppDelegate.m */; };
@@ -24,10 +22,8 @@
 		32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */; };
 		32FBE03C1DF4B85A00406E39 /* BinauralBeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.m */; };
 		32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */; };
-		32FD5AB01DF8971200263EC6 /* space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AAF1DF8971100263EC6 /* space.mp3 */; };
-		32FD5AB21DF8971F00263EC6 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AB11DF8971F00263EC6 /* wind.mp3 */; };
-		32FD5AB41DF8972E00263EC6 /* ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AB31DF8972E00263EC6 /* ocean.mp3 */; };
-		32FD5AB61DF8A46800263EC6 /* pink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 32FD5AB51DF8A46800263EC6 /* pink.mp3 */; };
+		8477C4C31DF9028500704445 /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8477C4C11DF9028500704445 /* red.mp3 */; };
+		8477C4C41DF9028500704445 /* white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8477C4C21DF9028500704445 /* white.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +46,6 @@
 /* Begin PBXFileReference section */
 		320C8E161DF7D6BC00FB9B19 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
-		327591A01DF7E82A00DC9190 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thunder.mp3; path = "../../cs50 project files/thunder.mp3"; sourceTree = "<group>"; };
-		327591A21DF7ED3C00DC9190 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rain.mp3; path = "../../cs50 project files/rain.mp3"; sourceTree = "<group>"; };
 		327D992A1DF6A15F00236428 /* AcknowledgementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcknowledgementsViewController.h; sourceTree = "<group>"; };
 		327D992B1DF6A15F00236428 /* AcknowledgementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcknowledgementsViewController.m; sourceTree = "<group>"; };
 		32FBDFFB1DF49E3A00406E39 /* Noise Manipulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noise Manipulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -78,10 +72,8 @@
 		32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinauralBeatViewController.m; sourceTree = "<group>"; };
 		32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseCancellationViewController.h; sourceTree = "<group>"; };
 		32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseCancellationViewController.m; sourceTree = "<group>"; };
-		32FD5AAF1DF8971100263EC6 /* space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = space.mp3; path = "../../cs50 project files/space.mp3"; sourceTree = "<group>"; };
-		32FD5AB11DF8971F00263EC6 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wind.mp3; path = "../../cs50 project files/wind.mp3"; sourceTree = "<group>"; };
-		32FD5AB31DF8972E00263EC6 /* ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ocean.mp3; path = "../../cs50 project files/ocean.mp3"; sourceTree = "<group>"; };
-		32FD5AB51DF8A46800263EC6 /* pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pink.mp3; path = "../../cs50 project files/pink.mp3"; sourceTree = "<group>"; };
+		8477C4C11DF9028500704445 /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = red.mp3; path = Audio/red.mp3; sourceTree = "<group>"; };
+		8477C4C21DF9028500704445 /* white.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = white.mp3; path = Audio/white.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,12 +153,8 @@
 		32FBDFFE1DF49E3A00406E39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				32FD5AB51DF8A46800263EC6 /* pink.mp3 */,
-				32FD5AB31DF8972E00263EC6 /* ocean.mp3 */,
-				32FD5AB11DF8971F00263EC6 /* wind.mp3 */,
-				32FD5AAF1DF8971100263EC6 /* space.mp3 */,
-				327591A21DF7ED3C00DC9190 /* rain.mp3 */,
-				327591A01DF7E82A00DC9190 /* thunder.mp3 */,
+				8477C4C11DF9028500704445 /* red.mp3 */,
+				8477C4C21DF9028500704445 /* white.mp3 */,
 				32FBDFFF1DF49E3A00406E39 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -314,14 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */,
-				32FD5AB01DF8971200263EC6 /* space.mp3 in Resources */,
-				32FD5AB61DF8A46800263EC6 /* pink.mp3 in Resources */,
-				327591A31DF7ED3C00DC9190 /* rain.mp3 in Resources */,
+				8477C4C41DF9028500704445 /* white.mp3 in Resources */,
 				32FBE00B1DF49E3A00406E39 /* Assets.xcassets in Resources */,
+				8477C4C31DF9028500704445 /* red.mp3 in Resources */,
 				32FBE0091DF49E3A00406E39 /* Main.storyboard in Resources */,
-				32FD5AB41DF8972E00263EC6 /* ocean.mp3 in Resources */,
-				32FD5AB21DF8971F00263EC6 /* wind.mp3 in Resources */,
-				327591A11DF7E82A00DC9190 /* thunder.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

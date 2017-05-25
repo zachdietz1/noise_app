@@ -1,5 +1,5 @@
 <p align="center">
-<b><font size="10"> Noise App</font></b>
+<b><font size="16"> Noise App</font></b>
 </p>
 
 

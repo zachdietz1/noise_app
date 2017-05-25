@@ -12,15 +12,20 @@ The following is an IOS app, written in Objective C, produced by Zach Dietz and 
 **Home page**
 ![home page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/home.png)
 
-**Blog page**
-![blog page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen2.png)
+**Nature Noises**
+![nature page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/nature.png)
 
-**Post page**
-![post page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen3.png)
+**Colored Noises**
+![colored page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/color.png)
 
-**Projects page**
-![project page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen4.png)
+**Buttons change while audio is playing**
+![nature_play page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/nature_play.png)
 
+![home_play page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/home_play.png)
+
+![cancellation page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/cancellation.png)
+
+![acknowledgements page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/acknowledgements.png)
 
 ## How to use it
 

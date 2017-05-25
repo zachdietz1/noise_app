@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface AcknowledgementsViewController : UIViewController
+@property (weak, nonatomic) IBOutlet UIImageView *acknowledgementsView;
 
 @end

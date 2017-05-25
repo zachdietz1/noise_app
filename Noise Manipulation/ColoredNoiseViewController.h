@@ -8,9 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-
 @interface ColoredNoiseViewController : UIViewController
-
 @property (weak, nonatomic) IBOutlet UIImageView *coloredNoisesView;
 
 @end

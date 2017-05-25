@@ -1,8 +1,0 @@
-echo "# noise_manipulation" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git remote add origin https://github.com/zachdietz1/noise_manipulation.git
-git push -u origin master
-
-changed the repo to: https://github.com/Jacqquot/cs50_project.git

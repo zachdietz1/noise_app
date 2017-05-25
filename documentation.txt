@@ -1,0 +1,25 @@
+Documentation
+
+1. Download the project folder onto a macOS system.
+2. Open “Noise Manipulation.xcodeproj”
+3. In the top left corner, set the iPhone version to “5s.”
+4. Hit the play (▶) button in the top left corner.
+5. The iPhone simulator might take some time to load, but it will appear once it is ready.
+6. Enjoy our app!
+
+In the app:
+The opening screen has 5 buttons: Nature Noises, Color Noises, Surprise Me!, Noise Cancellation, and Acknowledgements.
+Nature Noises navigates to a screen with five tracks:
+1. Rain
+2. Wind
+3. Space
+4. Ocean
+5. Thunder
+Color Noises navigates to a screen with four tracks:
+1. White
+2. Pink
+3. Red
+4. Grey
+Surprise Me! plays one of these sounds, selecting pseudo-randomly.
+Noise Cancellation contains information about our initial project plans, and what we hope to accomplish in the future.
+Acknowledgements contains credits for audio tracks and visuals.

@@ -9,7 +9,18 @@
 /* Begin PBXBuildFile section */
 		320C8E171DF7D6BC00FB9B19 /* AVKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C8E161DF7D6BC00FB9B19 /* AVKit.framework */; };
 		320C8E191DF7D73A00FB9B19 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */; };
+		321D8B3D1DF95F7600765849 /* README.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 321D8B3C1DF95F7600765849 /* README.rtf */; };
+		322AD4ED1DF9112000A67079 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 322AD4EC1DF9112000A67079 /* UIKit.framework */; };
 		327D992C1DF6A15F00236428 /* AcknowledgementsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327D992B1DF6A15F00236428 /* AcknowledgementsViewController.m */; };
+		327EA3161E01D493006BC991 /* grey.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA30D1E01D493006BC991 /* grey.mp3 */; };
+		327EA3171E01D493006BC991 /* ocean.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA30E1E01D493006BC991 /* ocean.mp3 */; };
+		327EA3191E01D493006BC991 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA3101E01D493006BC991 /* rain.mp3 */; };
+		327EA31A1E01D493006BC991 /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA3111E01D493006BC991 /* red.mp3 */; };
+		327EA31B1E01D493006BC991 /* space.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA3121E01D493006BC991 /* space.mp3 */; };
+		327EA31C1E01D493006BC991 /* thunder.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA3131E01D493006BC991 /* thunder.mp3 */; };
+		327EA31D1E01D493006BC991 /* white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA3141E01D493006BC991 /* white.mp3 */; };
+		327EA31E1E01D493006BC991 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA3151E01D493006BC991 /* wind.mp3 */; };
+		327EA3201E01D5C9006BC991 /* pink.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 327EA31F1E01D5C9006BC991 /* pink.mp3 */; };
 		32FBE0001DF49E3A00406E39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBDFFF1DF49E3A00406E39 /* main.m */; };
 		32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0021DF49E3A00406E39 /* AppDelegate.m */; };
 		32FBE0061DF49E3A00406E39 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0051DF49E3A00406E39 /* ViewController.m */; };
@@ -20,10 +31,7 @@
 		32FBE0241DF49E3A00406E39 /* Noise_ManipulationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0231DF49E3A00406E39 /* Noise_ManipulationUITests.m */; };
 		32FBE0331DF49E7800406E39 /* NatureNoisesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0321DF49E7800406E39 /* NatureNoisesViewController.m */; };
 		32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */; };
-		32FBE03C1DF4B85A00406E39 /* BinauralBeatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.m */; };
 		32FBE03F1DF4B87500406E39 /* NoiseCancellationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */; };
-		8477C4C31DF9028500704445 /* red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8477C4C11DF9028500704445 /* red.mp3 */; };
-		8477C4C41DF9028500704445 /* white.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 8477C4C21DF9028500704445 /* white.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +54,19 @@
 /* Begin PBXFileReference section */
 		320C8E161DF7D6BC00FB9B19 /* AVKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVKit.framework; path = System/Library/Frameworks/AVKit.framework; sourceTree = SDKROOT; };
 		320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		321D8B3C1DF95F7600765849 /* README.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		322AD4EC1DF9112000A67079 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		327D992A1DF6A15F00236428 /* AcknowledgementsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AcknowledgementsViewController.h; sourceTree = "<group>"; };
 		327D992B1DF6A15F00236428 /* AcknowledgementsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AcknowledgementsViewController.m; sourceTree = "<group>"; };
+		327EA30D1E01D493006BC991 /* grey.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = grey.mp3; path = Audio/grey.mp3; sourceTree = "<group>"; };
+		327EA30E1E01D493006BC991 /* ocean.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ocean.mp3; path = Audio/ocean.mp3; sourceTree = "<group>"; };
+		327EA3101E01D493006BC991 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rain.mp3; path = Audio/rain.mp3; sourceTree = "<group>"; };
+		327EA3111E01D493006BC991 /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = red.mp3; path = Audio/red.mp3; sourceTree = "<group>"; };
+		327EA3121E01D493006BC991 /* space.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = space.mp3; path = Audio/space.mp3; sourceTree = "<group>"; };
+		327EA3131E01D493006BC991 /* thunder.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = thunder.mp3; path = Audio/thunder.mp3; sourceTree = "<group>"; };
+		327EA3141E01D493006BC991 /* white.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = white.mp3; path = Audio/white.mp3; sourceTree = "<group>"; };
+		327EA3151E01D493006BC991 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = wind.mp3; path = Audio/wind.mp3; sourceTree = "<group>"; };
+		327EA31F1E01D5C9006BC991 /* pink.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = pink.mp3; path = Audio/pink.mp3; sourceTree = "<group>"; };
 		32FBDFFB1DF49E3A00406E39 /* Noise Manipulation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Noise Manipulation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32FBDFFF1DF49E3A00406E39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32FBE0011DF49E3A00406E39 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,12 +87,8 @@
 		32FBE0321DF49E7800406E39 /* NatureNoisesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NatureNoisesViewController.m; sourceTree = "<group>"; };
 		32FBE0371DF4B83600406E39 /* ColoredNoiseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredNoiseViewController.h; sourceTree = "<group>"; };
 		32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredNoiseViewController.m; sourceTree = "<group>"; };
-		32FBE03A1DF4B85A00406E39 /* BinauralBeatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinauralBeatViewController.h; sourceTree = "<group>"; };
-		32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinauralBeatViewController.m; sourceTree = "<group>"; };
 		32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoiseCancellationViewController.h; sourceTree = "<group>"; };
 		32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoiseCancellationViewController.m; sourceTree = "<group>"; };
-		8477C4C11DF9028500704445 /* red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = red.mp3; path = Audio/red.mp3; sourceTree = "<group>"; };
-		8477C4C21DF9028500704445 /* white.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = white.mp3; path = Audio/white.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				322AD4ED1DF9112000A67079 /* UIKit.framework in Frameworks */,
 				320C8E191DF7D73A00FB9B19 /* AVFoundation.framework in Frameworks */,
 				320C8E171DF7D6BC00FB9B19 /* AVKit.framework in Frameworks */,
 			);
@@ -106,6 +122,7 @@
 		320C8E151DF7D6BC00FB9B19 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				322AD4EC1DF9112000A67079 /* UIKit.framework */,
 				320C8E181DF7D73A00FB9B19 /* AVFoundation.framework */,
 				320C8E161DF7D6BC00FB9B19 /* AVKit.framework */,
 			);
@@ -145,6 +162,7 @@
 				32FBE00A1DF49E3A00406E39 /* Assets.xcassets */,
 				32FBE00C1DF49E3A00406E39 /* LaunchScreen.storyboard */,
 				32FBE00F1DF49E3A00406E39 /* Info.plist */,
+				321D8B3C1DF95F7600765849 /* README.rtf */,
 				32FBDFFE1DF49E3A00406E39 /* Supporting Files */,
 			);
 			path = "Noise Manipulation";
@@ -153,8 +171,15 @@
 		32FBDFFE1DF49E3A00406E39 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				8477C4C11DF9028500704445 /* red.mp3 */,
-				8477C4C21DF9028500704445 /* white.mp3 */,
+				327EA31F1E01D5C9006BC991 /* pink.mp3 */,
+				327EA30D1E01D493006BC991 /* grey.mp3 */,
+				327EA30E1E01D493006BC991 /* ocean.mp3 */,
+				327EA3101E01D493006BC991 /* rain.mp3 */,
+				327EA3111E01D493006BC991 /* red.mp3 */,
+				327EA3121E01D493006BC991 /* space.mp3 */,
+				327EA3131E01D493006BC991 /* thunder.mp3 */,
+				327EA3141E01D493006BC991 /* white.mp3 */,
+				327EA3151E01D493006BC991 /* wind.mp3 */,
 				32FBDFFF1DF49E3A00406E39 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -185,8 +210,6 @@
 				32FBE0381DF4B83600406E39 /* ColoredNoiseViewController.m */,
 				32FBE0321DF49E7800406E39 /* NatureNoisesViewController.m */,
 				32FBE0311DF49E7800406E39 /* NatureNoisesViewController.h */,
-				32FBE03A1DF4B85A00406E39 /* BinauralBeatViewController.h */,
-				32FBE03B1DF4B85A00406E39 /* BinauralBeatViewController.m */,
 				32FBE03D1DF4B87500406E39 /* NoiseCancellationViewController.h */,
 				32FBE03E1DF4B87500406E39 /* NoiseCancellationViewController.m */,
 				327D992A1DF6A15F00236428 /* AcknowledgementsViewController.h */,
@@ -301,10 +324,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				327EA3191E01D493006BC991 /* rain.mp3 in Resources */,
 				32FBE00E1DF49E3A00406E39 /* LaunchScreen.storyboard in Resources */,
-				8477C4C41DF9028500704445 /* white.mp3 in Resources */,
+				327EA3171E01D493006BC991 /* ocean.mp3 in Resources */,
+				327EA31A1E01D493006BC991 /* red.mp3 in Resources */,
+				327EA31E1E01D493006BC991 /* wind.mp3 in Resources */,
+				327EA3161E01D493006BC991 /* grey.mp3 in Resources */,
+				321D8B3D1DF95F7600765849 /* README.rtf in Resources */,
 				32FBE00B1DF49E3A00406E39 /* Assets.xcassets in Resources */,
-				8477C4C31DF9028500704445 /* red.mp3 in Resources */,
+				327EA31C1E01D493006BC991 /* thunder.mp3 in Resources */,
+				327EA3201E01D5C9006BC991 /* pink.mp3 in Resources */,
+				327EA31D1E01D493006BC991 /* white.mp3 in Resources */,
+				327EA31B1E01D493006BC991 /* space.mp3 in Resources */,
 				32FBE0091DF49E3A00406E39 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +367,6 @@
 				32FBE0391DF4B83600406E39 /* ColoredNoiseViewController.m in Sources */,
 				32FBE0031DF49E3A00406E39 /* AppDelegate.m in Sources */,
 				32FBE0001DF49E3A00406E39 /* main.m in Sources */,
-				32FBE03C1DF4B85A00406E39 /* BinauralBeatViewController.m in Sources */,
 				32FBE0331DF49E7800406E39 /* NatureNoisesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

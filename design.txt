@@ -1,0 +1,14 @@
+Design
+We implemented our project in Xcode in Objective C. We created a single view application with a main view controller that has both header (“.h”) and implementation (“.m”) files. From this main view controller, there are five UIButtons: “Nature Noises”; “Colored Noises”; “Surprise Me!”; “Noise Cancellation”; and “Acknowledgements.” Every UIButton except “Surprise Me!” has its own view controller as well as its own .h and .m files. We will proceed to describe these four view controllers and then give a description of “Surprise Me!”
+
+
+Both “Colored Noises” and “Nature Noises” can be considered as parallel views. They contain a UIImage background, and have four or five UIButtons within them, respectively. Within their “.m” files, we wrote code to handle a press upon each of the buttons. When a button is pressed, the related sound starts playing. If the sound is already playing, the button is used to halt the playing of the sound. In the implementation, there is a check to see whether the sound handling object (of class AVAudioPlayer) exists—if not, it is created. We tried (for several hours) to factor out common code between these views by making another class that handled redundant code blocks, but we could not accomplish this. We did however manage to create new methods that would factor out some redundancies with each of the buttons and the creation of sound objects. If the user leaves the page, then the audio stops. However, the user may play multiple tracks from the same page at once.
+
+
+“Noise Cancellation” is a view that was meant for our original goal, ambient noise cancellation. In it, we describe what we hoped to accomplish with the app and the challenges we faced. More specifically, we note that we were able to create code that could process ambient noise, but not in a manner that would cancel out that noise. We hope in the future that this noise cancellation page will have a successful noise cancelling function.
+
+
+“Surprise Me!” is the only UIButton that has code in the main view controller implementation file. When the button is pressed, an event handler in the main view controller “.m” file is triggered that checks whether audio is already running. If not, then it generates a pseudorandom number which corresponds with one of our noise tracks, and plays the track. If audio is already running, then it stops the track and deletes the sound object. Additionally, we wrote code that will stop the audio and delete the noise object if the user leaves the home page.
+
+
+Although we did not accomplish our initial goal of ambient noise cancellation, we had fun exploring alternative ideas and making this application. We are proud of the work and hope you enjoy playing with it.

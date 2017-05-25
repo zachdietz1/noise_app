@@ -10,7 +10,7 @@ The following is an IOS app, written in Objective C, produced by Zach Dietz and 
 ## Screenshots
 
 **Home page**
-![home page](https://raw.githubusercontent.com/zachdietz1/noise_app/assets/home.png)
+![home page](https://raw.githubusercontent.com/zachdietz1/noise_app/master/assets/home.png)
 
 **Blog page**
 ![blog page](https://raw.githubusercontent.com/biomadeira/sustain/gh-pages/assets/images/screen2.png)

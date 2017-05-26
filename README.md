@@ -31,7 +31,7 @@ The following is an IOS app, written in Objective C, produced by Zach Dietz and 
 
 ## How to use it
 
-Simply clone this repository, and open it inside Xcode. Then, in the top left corner of Xcode, set the iPhone version to “5s,” and hit the play (▶) button in the top left corner. The iPhone simulator might take some time to load, but it will appear once it is ready.
+Simply clone or download this repository, and open it inside Xcode. Then, in the top left corner of Xcode, set the iPhone version to “5s,” and hit the play (▶) button in the top left corner. The iPhone simulator might take some time to load, but it will appear once it is ready.
 
 #### Contributors
 <a href="https://github.com/zachdietz1">Zach Dietz</a> |
